@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400&family=Varela+Round&display=swap');
+
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.big-title {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #23408F;
+    margin-bottom: 20px;
+}
+
+.small-title {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #23408F;
+}
+
+.italic-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28px;
+    color: #23408F;
+}
+
+p, .paragraph-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.italic-small {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.main-content {
+    max-width: 960px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin: 0 auto;
+}
+
+.apprentice-body {
+    max-width: 670px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.grade-marker {
+    width: 20px;
+    height: 10px;
+    background-color: #FF7F00; 
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.question-box {
+    background-color: #F3F6FB;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text-editor {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.text-editor-header {
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-next, .btn-add {
+    background-color: #80B7FF;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    min-width: 44px;
+    min-height: 44px;
+}
+.btn-remove {
+    background-color: #80B7FF33;
+    color: #80B7FF;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+}
+
+
+.img-rounded {
+    border-radius: 5px;
+}
+
+
